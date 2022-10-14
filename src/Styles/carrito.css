@@ -1,0 +1,76 @@
+.carrito{
+    width: 60%;
+    background-color: aliceblue;
+    padding: 2rem;
+}
+
+.carrito-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.img-carrito{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.eliminar-icon{
+    font-size: 1.5;
+}
+
+.detalles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 1.3rem;
+} 
+
+
+.producto{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contadores{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.incrementar{
+    background-color: dodgerblue;
+    color: white;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.incrementar:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #75b615;
+  }
+
+.decrementar{
+    background-color: rgb(255, 42, 42);
+    color: white;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.decrementar:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #75b615;
+  }

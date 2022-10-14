@@ -1,0 +1,15 @@
+.header{
+    padding-top: 2rem;
+    color: aliceblue;
+    font-size: 2rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://blog.tableschairsbarstools.com/wp-content/uploads/2018/08/Header.jpg);
+    height: 19rem;
+    text-align: center;
+    
+
+}
+
+.line{
+    width: 80%;
+    margin-bottom: 6rem;
+}
